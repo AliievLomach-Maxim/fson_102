@@ -1,8 +1,25 @@
-# React + Vite
+# 102
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Module-02
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>Обробка подій</li>
+    <ul>
+        <li>Посилання на ф-ю</li>
+        <li>Анонімний колбек</li>
+        <li>Обʼєкт події</li>
+    </ul>
+    <li>Стан компонента</li>
+    <ul>
+        <li>Рективність</li>
+        <li>useState</li>
+        <li>Асинхронність оновлення стану</li>
+        <li>Ізоляція стану</li>
+        <li>Підняття стану</li>
+        <li>Декілька станів</li>
+        <li>Оновлення обʼєктів</li>
+    </ul>
+</ul>
+</details>

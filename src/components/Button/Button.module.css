@@ -6,8 +6,10 @@
 }
 
 .primary {
+	/* composes: btn; */
 	background-color: blue;
 }
 .secondary {
+	/* composes: btn; */
 	background-color: orange;
 }
