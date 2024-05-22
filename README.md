@@ -47,3 +47,35 @@
     </ul>
 </ul>
 </details>
+<br/>
+<br/>
+
+# Module-03
+
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>Форми</li>
+    <ul>
+        <li>Сабміт форми <code>onSubmit</code></li>
+        <li>Неконтрольована форма з <code>event.target.elements</code></li>
+        <li>Очищення форми після сабміту з <code>event.target.reset()</code></li>
+    </ul>
+    <li>Форма як окремий компонент</li>
+    <ul>
+        <li>Пропс сабміту</li>
+    </ul>
+    <li>Хук <code>useId</code></li>
+    <li>Контрольовані елементи</li>
+    <ul>
+        <li>Атрибути <code>value</code> та <code>onChange</code></li>
+        <li>Текстове поле</li>
+        <li>Елемент <code>select</code></li>
+    </ul>
+    <li>Контрольована форма</li>
+    <ul>
+        <li>Обробка сабміту у форми</li>
+        <li>Очищення форми після сабміту</li>
+    </ul>
+</ul>
+</details>
