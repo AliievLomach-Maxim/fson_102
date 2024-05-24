@@ -79,3 +79,34 @@
     </ul>
 </ul>
 </details>
+
+<details>
+  <summary>Заняття 2</summary>
+<ul>
+    <li>Бібліотека <code>Formik</code></li>
+    <li>Контейнер форми <code>Formik</code> та <code>Form</code></li>
+    <ul>
+        <li>Пропс <code>initialValues</code></li>
+        <li>Пропс <code>onSubmit</code></li>
+    </ul>
+    <li>Поля форми <code>Field</code></li>
+    <ul>
+        <li>Атрибут <code>name</code></li>
+        <li>Початкове значення елемнетів</li>
+    </ul>
+    <li>Відправка форми</li>
+    <ul>
+        <li>Параметри <code>values</code> та <code>actions</code></li>
+        <li>Початкове значення елемнетів</li>
+    </ul>
+    <li>Стилізація</li>
+    <li>Типи полів через пропс <code>as</code></li>
+    <li>Валідація з <code>Yup</code></li>
+    <ul>
+        <li>Схема валідації</li>
+        <li>Пропс <code>validationSchema</code></li>
+        <li>Компонент <code>ErrorMessage</code></li>
+    </ul>
+
+</ul>
+</details>

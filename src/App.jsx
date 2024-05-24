@@ -1,4 +1,5 @@
 import ControlledForm from './components/ControlledForm'
+import FormikForm from './components/FormikForm/FormikForm'
 
 function App() {
 	// const [value, setValue] = useState('qwrtey')
@@ -11,6 +12,7 @@ function App() {
 	return (
 		<>
 			<ControlledForm submit={submit} />
+			<FormikForm submit={submit} />
 		</>
 	)
 }

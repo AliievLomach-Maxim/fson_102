@@ -28,6 +28,7 @@ const ControlledForm = ({ submit }) => {
 
 	return (
 		<form onSubmit={handleSubmit}>
+			<h2>ControlledForm</h2>
 			<TextField value={state.name} onChange={handleChangeName} name='name' />
 			<br />
 			<TextField value={state.phone} name='phone' onChange={handleChangeName} />
