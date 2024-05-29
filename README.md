@@ -110,3 +110,26 @@
 
 </ul>
 </details>
+<br/>
+<br/>
+
+# Module-04
+
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>HTTP-запити axios</li>
+    <li><a href="https://hn.algolia.com/api"><code>https://hn.algolia.com/api</code></a></li>
+    <ul>
+        <li>Запит при монтуванні компонента</li>
+        <li>Оголошення функції у ефекті</li>
+        <li>Обробка даних запиту</li>
+        <li>Відображення даних</li>
+        <li>Поділ відповідальності</li>
+    </ul>
+    <li>Пошук через форму</li>
+    <li>Індикатор завантаження</li>
+    <li>Обробка помилок</li>
+    <li>Пагінація</li>
+</ul>
+</details>
