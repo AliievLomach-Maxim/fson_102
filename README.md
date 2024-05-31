@@ -133,3 +133,26 @@
     <li>Пагінація</li>
 </ul>
 </details>
+
+<details>
+  <summary>Заняття 2</summary>
+<ul>
+    <li>Хук <code>useMemo</code></li>
+    <li>Хук <code>useRef</code></li>
+    <ul>
+        <li>Створення</li>
+        <li>Життєвий цикл рефа</li>
+        <li>Відсутність реактивності</li>
+    </ul>
+    <li>Контекст</li>
+    <ul>
+        <li>Створення контексту</li>
+        <li>Компонент <code>Provider</code></li>
+        <li>Хук <code>useContext</code></li>
+        <li>Кастомний компонент провайдеру</li>
+    </ul>
+
+</ul>
+</details>
+<br/>
+<br/>
