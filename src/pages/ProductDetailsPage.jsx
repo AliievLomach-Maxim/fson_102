@@ -1,6 +1,6 @@
-import { Link, useParams, Outlet } from 'react-router-dom'
+import { Link, useParams, Outlet, useLocation } from 'react-router-dom'
 import { getSingleProductApi } from '../api/products-api'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const ProductDetailsPage = () => {
 	const { productId } = useParams()
@@ -8,6 +8,10 @@ const ProductDetailsPage = () => {
 	const [isLoading, setIsLoading] = useState(false)
 	const [error, setError] = useState(false)
 
+	const location = useLocation()
+
+	const backLocation = useRef(location.state ?? '/products')
+	console.log('backLocation', backLocation)
 	useEffect(() => {
 		const getData = async () => {
 			try {
@@ -25,6 +29,9 @@ const ProductDetailsPage = () => {
 
 	return (
 		<div>
+			<Link to={backLocation.current}>Back</Link>
+			{isLoading && <p>loading..</p>}
+			{error && <p>some error</p>}
 			{product && (
 				<div>
 					<h4>price:{product.price}</h4>

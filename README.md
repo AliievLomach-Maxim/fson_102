@@ -172,3 +172,24 @@
     <li>Деплой на <code>Versel</code> у матеріалах</li>
 </ul>
 </details>
+
+<details>
+  <summary>Заняття 2</summary>
+<ul>
+    <li>Рядок запиту</li>
+    <ul>
+        <li>Вилучення з параметрів <code>useSearchParams</code></li>
+        <li>Тип значень повертаємий методом <code>get</code></li>
+        <li>Зміна рядка запиту</li>
+    </ul>
+    <li>Обʼєкт місцезнаходження</li>
+    <ul>
+        <li>Хук <code>useLocation</code></li>
+        <li>Властивість <code>location.state</code></li>
+    </ul>
+    <li>Розділення коду</li>
+    <ul>
+        <li><code>lazy</code> та <code>Suspence</code></li>
+    </ul>
+</ul>
+</details>
