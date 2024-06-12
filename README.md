@@ -193,3 +193,37 @@
     </ul>
 </ul>
 </details>
+
+# Module-06
+
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>Управління станом</li>
+        <ul>
+            <li>Глобальний стан</li>
+            <li>Потік даних</li>
+        </ul>
+    <li>Встановлення <code>Redux</code> та <code>React Redux</code></li>
+    <li>Стор <code>store</code></li>
+        <ul>
+            <li><code>Redux DevTools</code></li>
+        </ul>
+    <li>Підписка на стор</li>
+        <ul>
+            <li>Функції-селектори</li>
+        </ul>
+    <li>Екшени <code>ections</code></li>
+        <ul>
+            <li>Генератори екшенів</li>
+            <li>Відправлення екшенів</li>
+        </ul>
+    <li>Редюсери <code>reducers</code></li>
+        <ul>
+            <li>Що таке редюсер</li>
+            <li>Кореневий редюсер</li>
+            <li>Обробка екшенів</li>
+            <li>Композиція редюсерів</li>
+        </ul>
+</ul>
+</details>
