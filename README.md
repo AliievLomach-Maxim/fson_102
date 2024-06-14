@@ -227,3 +227,22 @@
         </ul>
 </ul>
 </details>
+
+<details>
+  <summary>Заняття 2</summary>
+<ul>
+    <li>Redux Toolkit</li>
+    <ul>
+        <li><code>createAction</code></li>
+        <li><code>createReducer</code></li>
+        <ul>
+            <li><code>builder</code></li>
+            <li><code>immer</code></li>
+        </ul>
+        <li><code>createSlice</code></li>
+        <ul>
+            <li><code>prepare</code></li>
+        </ul>
+    </ul>
+</ul>
+</details>
