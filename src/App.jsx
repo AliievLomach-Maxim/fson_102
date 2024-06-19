@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 // import ProductDetailsPage from './pages/ProductDetailsPage'
 import { lazy, Suspense } from 'react'
+import TodoPage from './pages/TodoPage'
 
 const ProductDetailsPage = lazy(() => import('./pages/ProductDetailsPage'))
 const ProductsPage = lazy(() => import('./pages/ProductsPage'))
@@ -21,6 +22,7 @@ const App = () => {
 						<Route path='sub-product-a' element={<div>sub-product-a</div>} />
 						<Route path='sub-product-b' element={<div>sub-product-b</div>} />
 					</Route>
+					<Route path='/todo' element={<TodoPage />} />
 					<Route path='*' element={<div>404</div>} />
 				</Routes>
 			</Suspense>

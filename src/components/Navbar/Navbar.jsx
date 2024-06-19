@@ -15,6 +15,9 @@ const Navbar = () => {
 			<NavLink className={getClassNames} to='/products'>
 				Products
 			</NavLink>
+			<NavLink className={getClassNames} to='/todo'>
+				Todo
+			</NavLink>
 		</nav>
 	)
 }

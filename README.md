@@ -246,3 +246,25 @@
     </ul>
 </ul>
 </details>
+
+# Module-07
+
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>Асинхронні операції</li>
+    <li>Форма стану слайса: <code>loading, error, data</code></li>
+    <li>Оголошення операції <code>fetchTasks</code> через <code>createAsyncThunk</code> </li>
+        <ul>
+            <li>Діспатч операції у компоненті при монтуванні</li>
+            <li>Екшени операції: <code>pending, fulfilled, rejected</code></li>
+            <li>Обробка результату операцій у слайсі <code>xetraReducers</code></li>
+            <li>Обробка запиту, що завершився з помилкою <code>rejectWithValue</code></li>
+        </ul>
+    <li>Операції <code>addTask</code> та <code>deleteTask</code></li>
+        <ul>
+            <li>Діспатч операцій у компонентах</li>
+            <li>Обробка результату операцій у слайсі</li>
+        </ul>
+</ul>
+</details>
