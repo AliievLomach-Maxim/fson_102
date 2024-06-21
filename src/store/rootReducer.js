@@ -3,6 +3,7 @@ import { itemsReducer } from './itemsSlice'
 import storage from 'redux-persist/lib/storage'
 import persistReducer from 'redux-persist/es/persistReducer'
 import { todoReducer } from './todo/todoSlice'
+import { filterReducer } from './filterSlice'
 
 const persistConfig = {
 	key: 'balance',
@@ -22,4 +23,5 @@ export const rootReducer = {
 	balance: balancePersistedReducer,
 	items: itemsPersistedReducer,
 	todo: todoReducer,
+	filter: filterReducer,
 }
