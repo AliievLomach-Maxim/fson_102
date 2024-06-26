@@ -280,3 +280,42 @@
     <li>Мемоізація селекторів</li>
 </ul>
 </details>
+
+# Module-08
+
+<details>
+  <summary>Заняття 1</summary>
+<ul>
+    <li>baseUrl: <code>https://goit-task-manager.herokuapp.com/</code></li>
+    <li>Розібрати структуру сторінок та компонентів</li>
+    <li>Розібрати стан <code>authSlice</code></li>
+    <li>Налаштувати компонент <code>AppBar</code></li>
+    <li>Реєстрація</li>
+        <ul>
+            <li>Написати операцію <code>register</code></li>
+            <li>Використати в компоненті <code>RegisterForm</code></li>
+            <li>Обробити результат у <code>authSlice</code> / <code>users/signup</code></li>
+            <li>Звернути увагу на токен у відповіді</li>
+        </ul>
+    <li>Логін</li>
+        <ul>
+            <li>Написати операцію <code>login</code></li>
+            <li>Використати в компоненті <code>LoginForm</code></li>
+            <li>Обробити результат у <code>authSlice</code>  / <code>users/login</code></li>
+            <li>Звернути увагу на токен у відповіді</li>
+        </ul>
+    <li>Приватна колекція</li>
+        <ul>
+            <li>Розібрати концепцію приватних даних користувача</li>
+            <li>Розглянути як по токену бек розрізняє користувачів</li>
+            <li>Як додавати токен до кожного запиту після логіну або реєстрації</li>
+            <li>Створити утиліти <code>setAuthHeader</code> та <code>clearAuthHeader</code></li>
+        </ul>
+    <li>Логаут</li>
+        <ul>
+            <li>Написати операцію <code>logOut</code></li>
+            <li>Використати</li>
+            <li>Обробити</li>
+        </ul>
+</ul>
+</details>
