@@ -1,7 +1,9 @@
-import { useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { logOutOperation } from '../../store/auth/operations'
+import { selectUser } from '../../store/auth/selectors'
 
 const UserInfo = () => {
+	const {name} = useSelector(selectUser)
 	const dispatch = useDispatch()
 
 	const handleLogOut = () => {
@@ -10,7 +12,7 @@ const UserInfo = () => {
 
 	return (
 		<div className='flex'>
-			<p>Welcome, username</p>
+			<p>Welcome, {name}</p>
 			<button onClick={handleLogOut}>logOut</button>
 		</div>
 	)
