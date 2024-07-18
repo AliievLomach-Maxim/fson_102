@@ -4,6 +4,7 @@ import { selectLoggedIn } from '../../store/auth/selectors'
 
 const Navigation = () => {
 	const isLoggedIn = useSelector(selectLoggedIn)
+
 	return (
 		<nav>
 			<ul className='flex'>

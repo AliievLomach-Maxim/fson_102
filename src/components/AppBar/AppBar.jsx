@@ -6,6 +6,7 @@ import { selectLoggedIn } from '../../store/auth/selectors'
 
 const AppBar = () => {
 	const isLoggedIn = useSelector(selectLoggedIn)
+
 	return (
 		<div className='flex jc-sb'>
 			<Navigation />

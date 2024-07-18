@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import { createTaskOperation, getAllTasksOperation } from './oprations'
+import { logOutOperation } from '../auth/operations'
 
 const tasksSlice = createSlice({
 	name: 'tasks',
@@ -13,6 +14,9 @@ const tasksSlice = createSlice({
 			})
 			.addCase(createTaskOperation.fulfilled, (state, { payload }) => {
 				state.tasks.push(payload)
+			})
+			.addCase(logOutOperation.fulfilled, (state) => {
+				state.tasks = null
 			})
 	},
 })

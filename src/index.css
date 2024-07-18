@@ -24,6 +24,8 @@ a:hover {
 .flex {
 	display: flex;
 	gap: 12px;
+	align-items: center;
+	padding-inline-end: 12px;
 }
 
 .jc-sb {
@@ -70,4 +72,7 @@ button:focus-visible {
 	button {
 		background-color: #f9f9f9;
 	}
+}
+li {
+	list-style-type: none;
 }

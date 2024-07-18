@@ -286,7 +286,7 @@
 <details>
   <summary>Заняття 1</summary>
 <ul>
-    <li>baseUrl: <code>https://goit-task-manager.herokuapp.com/</code></li>
+    <li>baseUrl: <code>https://task-manager-api.goit.global/</code></li>
     <li>Розібрати структуру сторінок та компонентів</li>
     <li>Розібрати стан <code>authSlice</code></li>
     <li>Налаштувати компонент <code>AppBar</code></li>
@@ -316,6 +316,31 @@
             <li>Написати операцію <code>logOut</code></li>
             <li>Використати</li>
             <li>Обробити</li>
+        </ul>
+</ul>
+</details>
+
+<details>
+  <summary>Заняття 2</summary>
+<ul>
+    <li>Оновлення користувача</li>
+        <ul>
+            <li>Додати збереження токену у  <code>localStorage > Persist</code></li>
+            <li>Додати новий стан <code>isRefreshing</code></li>
+            <li>Додати для нього селектор</li>
+            <li>Використати <code>isRefreshing</code></li>
+            <li>Додати опцію <code>refreshUser</code></li>
+            <li>Використати <code>refreshUser</code> при монтуванні</li>
+        </ul>
+    <li>Редіректи</li>
+        <ul>
+            <li>Розглянути концепцію редіректів</li>
+            <li>Створити компоненти <code>PrivateRoute</code> та <code>RestrictedRoute</code></li>
+            <li>Використати компоненти для огортання маршрутів</li>
+        </ul>
+    <li>Логаут</li>
+        <ul>
+            <li>Обробити результат у слайсі, щоб інвалідувати попередні дані при логауті</li>
         </ul>
 </ul>
 </details>
